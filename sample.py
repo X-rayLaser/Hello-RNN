@@ -67,7 +67,8 @@ if __name__ == '__main__':
     parser.add_argument('--maxlen', type=int, default=50)
     parser.add_argument('--sentinel', type=str, default=' ')
     parser.add_argument('--num_results', type=int, default=100)
-    parser.add_argument('--weights_path', type=str, default='english_words_5000.h5')
+    parser.add_argument('--weights_path',
+                        type=str, default='pre_trained_models/english_words_5000.h5')
 
     args = parser.parse_args()
 

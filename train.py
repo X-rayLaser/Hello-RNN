@@ -16,7 +16,7 @@ def get_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('--loader_class', type=str, default='UserNameLoader')
 
-    parser.add_argument('--sequences_path', type=str, default='words.txt')
+    parser.add_argument('--sequences_path', type=str, default='sequences.txt')
 
     parser.add_argument('--num_sequences', type=int, default=100000)
     parser.add_argument('--max_len', type=int, default=16)
