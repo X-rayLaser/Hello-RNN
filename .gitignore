@@ -1,0 +1,5 @@
+*.pyc
+raw_text.txt
+\.idea/
+venv/
+*.csv

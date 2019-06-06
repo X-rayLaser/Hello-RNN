@@ -1,0 +1,4 @@
+Numpy
+tensorflow<2.0
+keras
+wordfreq
