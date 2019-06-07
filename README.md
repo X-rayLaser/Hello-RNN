@@ -58,6 +58,14 @@ units each, save the model in file 'incognito_model.h5'.
 python train.py --loader_class 'SequenceLoader' --sequence_path 'sequences.txt' --num_sequences 1000 --max_len 8 --sentinel ' ' --units 32 --layers 3 --batch_size 32 --epochs 10 --save_path 'incognito_model.h5'
 ```
 
+# Few generated samples
+
+![alt text](sampled1.png "Batch of generated sequences starting with 'A'")
+
+![alt text](sampled2.png "Batch of generated sequences starting with 'Al'")
+
+![alt text](sampled3.png "Batch of generated sequences starting with 'Sta'")
+
 # Additional details on training
 
 Depending on the type of sequences, there are 3 different loaders to use
